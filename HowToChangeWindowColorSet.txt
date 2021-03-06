@@ -1,0 +1,19 @@
+
+Win10適用
+
+(1). Win+R -->  Regedit
+(2). 不要用 Admin 登入, 要用自己的 user account 登入
+(3). HKEY_CURRENT_USER/ControlPanel/Colors 下有機碼如下:
+                     Window  REG_SZ  255  255  255
+     將其設定值改為  Window  REG_SZ  199  237  204
+(4). 離開編輯器, 重新登入, 新 color 設定值將生效．
+
+
+     Hue -->  85	R --> 199
+     Sat --> 123	G --> 237
+     Lum --> 205	B --> 204
+
+
+在不同視窗之間切換:
+WIN10: ALT + Tab
+MacOS: Com + Tab
